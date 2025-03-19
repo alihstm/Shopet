@@ -2,7 +2,7 @@
 A modern and clean website built with React for a petshop called **SHOPET**. This project is a comprehensive platform designed for pet enthusiasts to explore informative weblogs about pet care, training, and health,
 as well as shop for essential pet supplies and food 🥩.
 
-Visit Here 👉 https://pet-shop-website-alihstm-alihstms-projects.vercel.app/
+Visit Here 👉 https://shopet.vercel.app/
 
 ![ShoPet](https://github.com/user-attachments/assets/47d387b9-43be-4de6-a1ca-28a1578aa096)
 
