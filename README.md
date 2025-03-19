@@ -4,7 +4,8 @@ as well as shop for essential pet supplies and food 🥩.
 
 Visit Here 👉 https://shopet.vercel.app/
 
-![ShoPet](https://github.com/user-attachments/assets/47d387b9-43be-4de6-a1ca-28a1578aa096)
+![FireShot Capture 006 - Shopet -  shopet vercel app](https://github.com/user-attachments/assets/c76031b2-ee8b-4a3d-80a3-aafb8080e6b9)
+
 
 ## Features ✨
 - Clean and minimalistic UI/UX design.
