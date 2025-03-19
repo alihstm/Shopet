@@ -1,0 +1,49 @@
+:root {
+  --font-h1: Vazirmatn;
+  --font-h2: lalezar;
+  --font-h3: rokh;
+  --font-h4: Rubik;
+  --font-p: "Baloo Bhaijaan 2";
+  --orange: #f7763d;
+  --lightBlue: #e0f5ff;
+  --purpleBlue: #5124c4;
+  --skyBlue: #519bc2;
+  --pink: #ff9ab3;
+  --darkPink: #e77291;
+  --slimeGreen: #648958;
+  --lightGreen: #88bd88;
+  --lightOrange: #ec8a3c;
+  --darkOrange: #cc6513;
+  --purple: #af56c6;
+  --lightPurple: #d086e3;
+  --gray: #707070;
+  --lightGray2: #cacaca;
+  --brightBlue: #3ea6dd;
+  --lightGray: #5124c40a;
+  --darkGray: #555555;
+  --veryLightBlue: #e0f5ff4f;
+  --veryLightOrange: #f7763d21;
+  --gradient: linear(to left, #3ea6dd, #41bdff);
+}
+@font-face {
+  font-family: "rokh";
+  src: url("../src/assets/fonts/RokhFaNum-UltraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+* {
+  user-select: none;
+  scroll-behavior: smooth;
+  direction: rtl;
+  margin: 0rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem;
+  height: 275rem;
+}

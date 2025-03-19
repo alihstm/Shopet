@@ -1,0 +1,144 @@
+.specialProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90;
+  height: 40rem;
+  padding: 0rem 8rem;
+  margin-bottom: 8rem;
+}
+.banner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 25%;
+  padding: 0rem 4rem 0rem 0rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to left, #3ea6dd, #41bdff);
+  object-fit: contain;
+  overflow: hidden;
+}
+.banner img {
+  overflow: hidden;
+  width: 50%;
+}
+.Texts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  font-family: var(--font-h4);
+}
+.banner p {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: white;
+}
+.banner span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--font-h1);
+  color: var(--orange);
+  background-color: white;
+  width: 11.5rem;
+  padding: 0.1rem 0.8rem 0.1rem 0.4rem;
+  border-radius: 2rem;
+  transition: 0.15s;
+}
+.banner span svg {
+  color: white;
+  background-color: var(--orange);
+  padding: 0.2rem;
+  border-radius: 50%;
+  transition: 0.15s;
+}
+.banner span:hover {
+  background-color: var(--orange);
+  color: white;
+  cursor: pointer;
+}
+.banner span:active {
+  transform: scale(0.9);
+}
+.banner span:hover svg {
+  background-color: white;
+  color: var(--orange);
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  width: 100%;
+  height: 65%;
+}
+.product {
+  position: relative;
+  flex: 1 1 calc(25% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  border-radius: 2rem;
+  padding: 3rem 2rem 0rem 1rem;
+}
+.vector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  background: url("../assets/Material/Vector-main.svg");
+  background-size: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 4.5rem;
+}
+.productInfo h3 {
+  font-family: var(--font-h1);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+}
+.productInfo button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: var(--font-h1);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  padding: 0.2rem 0.5rem 0.2rem 0.2rem;
+  width: 7rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.productInfo button:hover {
+  transform: scale(0.9);
+}
+.productInfo button:active {
+  transform: scale(1);
+}
+.productInfo button svg {
+  background-color: white;
+  padding: 0.1rem;
+  border-radius: 50%;
+}
